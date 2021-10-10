@@ -27,12 +27,6 @@ const options = [
     { label: "A Shade of Blue", value: "blue" },
 ];
 
-const showAccordion = () => {
-    if (window.location.pathname === "/") {
-        return <Accordion items={items} />;
-    }
-};
-
 export default () => {
     const [selected, setSelected] = useState(options[0]);
 
