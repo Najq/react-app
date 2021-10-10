@@ -27,7 +27,7 @@ const options = [
     { label: "A Shade of Blue", value: "blue" },
 ];
 
-export default () => {
+const App = () => {
     const [selected, setSelected] = useState(options[0]);
 
     return (
@@ -53,3 +53,5 @@ export default () => {
         </div>
     );
 };
+
+export default App;
